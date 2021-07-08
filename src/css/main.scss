@@ -297,13 +297,10 @@ header {
     background-position: center;
     font-size: 30px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.47;
-    letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    padding-top: 46px;
+    padding-top: 51px;
     padding-bottom: 75px;
     margin-top: 25px;
 
@@ -525,6 +522,13 @@ header {
       .item {
         width: 301px;
 
+        &:nth-child(3) {
+
+          h3 {
+            margin-left: -13px;
+          }
+        }
+
         img {
           margin-bottom: 25px;
           margin-top: 10px;
@@ -537,10 +541,6 @@ header {
           text-align: center;
           color: #000000;
           white-space: nowrap;
-
-          &:nth-child(3) {
-            text-align: left;
-          }
         }
 
         p {
