@@ -23,13 +23,6 @@ header {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
-  }
-
-  img {
-    margin-top: 6px;
-  }
-
-  .logo {
     padding-top: 11px;
     padding-bottom: 16px;
   }
@@ -53,11 +46,6 @@ header {
         height: 35px;
       }
     }
-  }
-
-  .menu-second {
-    padding-top: 11px;
-    padding-bottom: 16px;
   }
 
   .number {
@@ -236,10 +224,6 @@ header {
       left: 22%;
       bottom: 0;
       padding: 15px 130px 15px 101px;
-    }
-
-    .shadow {
-
     }
 
     span {
@@ -432,12 +416,13 @@ header {
       padding-bottom: 90px;
 
       .infrastructure__item {
+
         &:nth-child(1) {
-          margin-left: 100px;
+          margin-left: 65px;
         }
 
         &:nth-child(3) {
-          margin-right: 100px;
+          margin-right: 65px;
         }
 
         span {
@@ -454,6 +439,8 @@ header {
             width: 300px;
             height: 37px;
             background-image: url("../img/shadow.png");
+            background-size: contain;
+            background-repeat: repeat no-repeat;
           }
         }
 
@@ -468,7 +455,6 @@ header {
           &:after {
             content: '';
             display: block;
-            width: 340px;
             height: 1px;
             background-color: #dae8da;
             margin-bottom: 2px;
@@ -506,6 +492,7 @@ header {
       p {
         padding-left: 19px;
         color: #fbfafa;
+        line-height: 1.18;
       }
 
       span {
@@ -537,14 +524,6 @@ header {
 
       .item {
         width: 301px;
-
-        &:nth-child(1) {
-          margin-left: 100px;
-        }
-
-        &:nth-child(3) {
-          margin-right: 100px;
-        }
 
         img {
           margin-bottom: 25px;
@@ -596,7 +575,7 @@ header {
       font-size: 19px;
       font-weight: bold;
       letter-spacing: 0.38px;
-      margin-left: 128px;
+      margin-left: 114px;
       color: #ffffff;
       margin-bottom: 20px;
     }
@@ -608,17 +587,17 @@ header {
       .item {
 
         &:nth-child(1) {
-          margin-left: 125px;
+          margin-left: 100px;
         }
 
         &:nth-child(3) {
+          margin-right: -85px;
         }
 
         ul {
           font-size: 16px;
           font-weight: 300;
           line-height: 2.31;
-          letter-spacing: 0.32px;
           text-align: left;
           color: #ffffff;
         }
@@ -626,9 +605,8 @@ header {
         li:after {
           content: '';
           display: block;
-          width: 315px;
           height: 1px;
-          background-color: #d44a344;
+          background-color: #48a746;
         }
       }
     }
@@ -663,11 +641,11 @@ header {
     }
 
     img:nth-child(1) {
-      margin-left: 125px;
+      margin-left: 75px;
     }
 
     img:nth-child(4) {
-      margin-right: 125px;
+      margin-right: 75px;
     }
   }
 }
@@ -700,6 +678,10 @@ footer {
       color: #fbfafa;
       position: relative;
 
+      &:nth-child(1) {
+        margin-bottom: 5px;
+      }
+
       span {
         font-weight: bold;
       }
@@ -717,7 +699,7 @@ footer {
       line-height: 0.81;
       text-align: right;
       color: #ffffff;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .call {
