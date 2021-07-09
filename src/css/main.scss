@@ -140,6 +140,21 @@ header {
     }
   }
 
+  .form {
+    position: relative;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 773px;
+      height: 227px;
+      box-shadow: 0.8px 1.8px 79px 0 rgba(0, 0, 0, 0.26);
+      position: absolute;
+      top: 10px;
+      left: 204px;
+      z-index: 1;
+    }
+  }
 
   form {
     background-image: url("../img/purplebox.png");
@@ -149,6 +164,7 @@ header {
     margin: 190px auto 0 auto;
     padding: 35px 47px 81px 42px;
     position: relative;
+    z-index: 5;
 
     .text:nth-child(1) {
       font-size: 24px;
